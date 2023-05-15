@@ -5,12 +5,7 @@ primary_region = "nrt"
 processes = []
 
 [build]
-  builder = "paketobuildpacks/builder:full"
-  buildpacks = ["gcr.io/paketo-buildpacks/php"]
-
-  [build.args]
-    BP_PHP_SERVER = "nginx"
-    BP_PHP_WEB_DIR = "public"
+  dockerfile = "Dockerfile"
 
 [env]
   PORT=8080
