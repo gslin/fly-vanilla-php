@@ -1,0 +1,1 @@
+*/1 * * * * curl https://home.gslin.org/robots.txt > /dev/null 2>&1
