@@ -13,10 +13,6 @@ processes = []
 [experimental]
   auto_rollback = true
 
-[processes]
-  app = ""
-  cron = "supercronic /app/crontab"
-
 [[services]]
   http_checks = []
   internal_port = 80
